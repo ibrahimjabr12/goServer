@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<h2>Add a person</h2>
+  <form method="POST" action="/people">     
+      <label>Name</label><input name="name" type="text" value="" />
+      <label>Age</label><input name="age" type="number" value="" min="1" max="120"/>
+      <label>FavColor</label><input name="favColor" type="text" value="" />
+      <input type="submit" value="submit" />
+  </form>
+    <form method="get" action="/people/taz">     
+      <label></label><input name="Fname" type="text" value="" />
+      <input type="submit" value="Find a Person" />
+  </form>
+    </form>
+    <form method="get" action="/people">     
+      <input type="submit" value="All People" />
+  </form>
+</body>
+</html>

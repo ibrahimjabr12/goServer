@@ -1,0 +1,3 @@
+* run "go get github.com/julienschmidt/httprouter" in terminal
+* run go "go run server.go" in terminal
+* open the browser on "http://localhost:3000"
